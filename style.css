@@ -1,0 +1,173 @@
+body{
+    background-color: hsl(131, 69%, 11%);
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.evify{
+    color: white;
+    font-size: 70px;
+    display: block;
+}
+#tick{
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-top: -60px;
+    margin-left: 220px;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+.auth{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.lever{
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.leverage{
+    font-size: 50px;
+}
+.Ev{
+    font-size: 33px;
+}
+.list1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.list2{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.entry{
+    float: right;
+    font-family: 'Kaushan Script', cursive;
+    margin-right: 450px;
+}
+.quick{
+    font-size: 50px;
+}
+#text{
+    width: 450px;
+
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.first{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.second{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+#security{
+    height: 300px;
+    width: 500px;
+}
+#collab{
+    height: 300px;
+    width: 500px;
+}
+.container{
+    margin: 50px;
+}
+#bt{
+    margin-left: 170px;
+    height: 70px;
+}
+#btn{
+    background-color: white;
+    color: hsl(131, 69%, 11%);
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive; 
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#docs{
+    height: 50px;
+    width: 1000px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.cid{
+    margin-top: 70px;
+    font-size: 40px;
+}
+.searcher{
+    height: 50px;
+    width: 1000px;
+    font-size: 20px;
+}
+.search{
+    height: 40px;
+    float: right;
+    /* margin-top: -50px; */
+    /* margin-left: 200px; */
+}
+@media only screen and (max-width:600px){
+    .evify{
+        font-size: 50px;
+        margin-left: -25px;
+    }
+    #tick{
+        float: right;
+        height: 40px;
+        width: 40px;
+        margin-top: -51px;
+        margin-left: 150px;
+    }
+    .lever{
+        text-align: center;
+        margin-left: 40px;
+        justify-content: center;
+
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        margin-left: 10px;
+    }
+    .three{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .footer{
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin-left: 40px;
+    }
+    .docs{
+        margin: auto;
+    }
+}
